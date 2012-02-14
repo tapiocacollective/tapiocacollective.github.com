@@ -1,0 +1,15 @@
+.main {
+  margin-top: 96px;
+}
+
+.person {
+  display: block;
+  margin-bottom: 96px;
+  color: #333;
+}
+.person:hover {
+  text-decoration: none;
+}
+.person:hover * {
+  color: #fcb040;
+}
