@@ -1,0 +1,6 @@
+.row
+  #logo.span5
+    %h1= image_tag '/images/logo.png', alt: 'Tapioca Collective'
+  #people.span7
+    - [ben, stu].each do |person|
+      = render '/person', locals: {person: person}
