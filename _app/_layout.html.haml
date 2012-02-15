@@ -6,5 +6,9 @@
     = stylesheet_link_tag 'application'
   %body
     .container
-      .main= yield
+      .row
+        #logo.span5
+          %h1= image_tag '/images/logo.png', alt: 'Tapioca Collective'
+        .main.span7
+          = yield
     
