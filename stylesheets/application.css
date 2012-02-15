@@ -1,4 +1,4 @@
-.main {
+.container {
   margin-top: 96px;
 }
 
@@ -10,6 +10,7 @@
 .person:hover {
   text-decoration: none;
 }
-.person:hover * {
+.person:hover .bio {
   color: #fcb040;
+  font-weight: bold;
 }
