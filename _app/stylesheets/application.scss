@@ -1,4 +1,4 @@
-.main {
+.container {
   margin-top: 96px;
 }
 
@@ -8,8 +8,9 @@
   color: #333;
   &:hover {
     text-decoration: none;
-    * {
+    .bio {
       color: #fcb040;
+      font-weight: bold;
     }
   }
 }
